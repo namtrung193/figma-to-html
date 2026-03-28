@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Header */
+#header {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.main-nav a {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.header-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-wrapper {
+  position: relative;
+  width: 94px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 25px;
+}
+
+.cart-text {
+  position: relative;
+  color: #fff;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.header-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 130px; /* Align with content below */
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.search-bar {
+  width: 367px;
+}
+
+.search-input-wrapper {
+  background-color: #d9d9d9;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-radius: 2px;
+}
+
+.search-placeholder {
+  opacity: 0.66;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .header-bottom {
+    padding-left: 0;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+/* CSS for section section:Hero */
+#hero {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 350px 1fr 323px;
+  gap: 20px;
+  align-items: start;
+}
+
+.hero-content {
+  padding-left: 130px; /* Align with header bottom */
+  padding-top: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0 0 10px 0;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  margin: 0 0 60px 0;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 200px; /* Push buttons down */
+}
+
+.btn-shop {
+  background-color: #d9d9d9;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  min-width: 200px;
+  justify-content: space-between;
+}
+
+.hero-nav-arrows {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-arrow {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #a3a3a3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image-center img {
+  width: 250;
+  height: 286px;
+  object-fit: cover;
+  align-items: center right;
+  margin-top: 70px; /* Visual offset */
+}
+
+.hero-image-right img {
+  width: 100%;
+  height: 484px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-image-right {
+    display: none;
+  }
+  .hero-content {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-actions {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* CSS for section section:Newest */
+#newest {
+  margin-bottom: 100px;
+}
+
+.section-header {
+  margin-bottom: 40px;
+  padding-left: 95px;
+}
+
+.count {
+  color: #000e8a;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.product-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+  padding-left: 95px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-image {
+  position: relative;
+  background-color: #f5f5f5;
+  aspect-ratio: 1;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-badge-group {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #fff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  border: 0.5px solid #a3a3a3;
+}
+
+.badge-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.card-overlay-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+}
+
+.btn-icon-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(220, 220, 220, 0.44);
+}
+
+.btn-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: rgba(0,0,0,0.66);
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  min-height: 36px;
+}
+
+.card-price {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.grid-nav-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+@media (max-width: 1024px) {
+  .product-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
+  }
+  .section-header {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS for section section:Collection */
+#collection {
+  margin-bottom: 100px;
+}
+
+.collection-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+}
+
+.collection-sidebar {
+  padding-left: 130px;
+}
+
+.collection-title {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+
+.filter-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.filter-item {
+  cursor: pointer;
+  color: #8a8a8a;
+}
+
+.filter-item.active {
+  color: #000;
+}
+
+.divider {
+  height: 1px;
+  background-color: #dfdfdf;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.product-category-label {
+  font-size: 12px;
+  color: rgba(0,0,0,0.66);
+}
+
+.collection-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.control-group {
+  display: flex;
+  gap: 30px;
+}
+
+.control-group.right {
+  color: #5e5e5e;
+}
+
+.product-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.card-image-large {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card-image-large img {
+  width: 100%;
+  height: auto;
+}
+
+.badge-plus {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  background: rgba(255,255,255,0.8);
+  padding: 2px 5px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.detail-cat {
+  color: rgba(0,0,0,0.66);
+}
+
+.detail-price {
+  font-weight: 700;
+}
+
+.detail-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.collection-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.see-more {
+  color: #5e5e5e;
+  font-weight: 600;
+}
+
+.load-more-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8a8a8a;
+  cursor: pointer;
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .collection-layout {
+    grid-template-columns: 1fr;
+  }
+  .collection-sidebar {
+    padding-left: 0;
+  }
+  .product-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CSS for section section:Journey */
+#journey {
+  margin-bottom: 100px;
+}
+
+.journey-header {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.journey-desc {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.journey-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
+
+@media (max-width: 768px) {
+  .journey-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* CSS for section section:Footer */
+#footer-section {
+  background-color: #f5f5f5;
+  padding: 80px 0 40px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.footer-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-lang-group {
+  margin-top: 40px;
+}
+
+.lang-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.lang-row {
+  display: flex;
+  gap: 5px;
+}
+
+.slash {
+  opacity: 0.2;
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tech-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ececec;
+  line-height: 1;
+}
+
+.tech-title.black-bg {
+  color: #000;
+}
+
+.tech-desc {
+  font-size: 14px;
+  color: rgba(20,20,20,0.4);
+  max-width: 220px;
+}
+
+.tech-slash {
+  font-size: 32px;
+  opacity: 0.2;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-top: 20px;
+}
+
+.copyright {
+  display: flex;
+  gap: 100px;
+  font-size: 13px;
+  color: rgba(30,30,30,0.4);
+}
+
+.legal-links {
+  display: flex;
+  gap: 40px;
+}
+
+.to-top-btn {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.to-top-line {
+  width: 1px;
+  height: 10px;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-col-empty {
+    display: none;
+  }
+  .copyright {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="header">
+  <div class="container">
+    <header class="site-header">
+      <!-- Top Navigation Bar -->
+      <div class="header-top">
+        <div class="header-left">
+          <img src="images/2_259.svg" alt="Menu" class="icon-menu">
+          <nav class="main-nav">
+            <a href="#">Trang chủ</a>
+            <a href="#">Bộ sưu tập</a>
+            <a href="#">Mới nhất</a>
+          </nav>
+        </div>
+        
+        <div class="header-center">
+          <div class="logo-mark">
+            <img src="images/2_258.svg" alt="Logo Mark">
+          </div>
+        </div>
+        
+        <div class="header-right">
+          <div class="icon-group">
+            <img src="images/Group 8.png" alt="User" class="icon-user">
+            <div class="cart-wrapper">
+              <div class="cart-bg"></div>
+              <span class="cart-text">Giỏ hàng</span>
+            </div>
+            <img src="images/Group 7.png" alt="Wishlist" class="icon-wishlist"><span></span>
+            <img src="images/Group 6.png" alt="Search" class="icon-search-top">
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub Header / Category & Search -->
+      <div class="header-bottom">
+        <div class="category-list">
+          <span class="cat-item">NAM</span>
+          <span class="cat-item">NỮ</span>
+          <span class="cat-item">TRẺ EM</span>
+        </div>
+        <div class="search-bar">
+          <div class="search-input-wrapper">
+            <span class="search-placeholder">Tìm kiếm</span>
+            <img src="images/2_148.svg" alt="Search Icon" class="search-icon">
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</section>
+<section id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <h1 class="hero-title">BỘ SƯU TẬP MỚI</h1>
+        <p class="hero-subtitle">New year 2026</p>
+        
+        <div class="hero-actions">
+          <button class="btn-shop">
+            <span>Đi Đến Cửa Hàng</span>
+            <img src="images/2_135.svg" alt="Arrow">
+          </button>
+          
+          <div class="hero-nav-arrows">
+            <button class="nav-arrow prev">
+              <img src="images/2_144.svg" alt="Prev">
+            </button>
+            <button class="nav-arrow next">
+              <img src="images/2_140.svg" alt="Next">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center Image -->
+      <div class="hero-image-center">
+        <img src="images/da6ec8f3e65c99b64677de7a99af281294980613.png" alt="Hero Center">
+      </div>
+
+      <!-- Right Image -->
+      <div class="hero-image-right">
+        <img src="images/0905505aa98a2c0526659d5f3405f48a1f48f643.png" alt="Hero Right">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="newest">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">MỚI NHẤT TUẦN NÀY <span class="count">(50)</span></h2>
+    </div>
+    
+    <div class="product-grid-4">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <div class="card-image">
+          <img src="images/9cca744f498ab2e63cc639c9c4119453f1f47a20.png" alt="Nike Air Max 95">
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span>Nam</span>
+          </div>
+          <h3 class="card-title">Nike Air Max 95 Big Bubble</h3>
+          <p class="card-price">5,279,000₫</p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <div class="card-image">
+          <img src="images/950678342678e9a4d6d5e87b74a1b56561b828af.png" alt="Nike C1TY">
+          
+            
+        
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span>Nam</span>
+            <span class="meta-plus">+5</span>
+          </div>
+          <h3 class="card-title">Nike C1TY Premium CORDURA®</h3>
+          <p class="card-price">3,239,000₫</p>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="card-image">
+          <img src="images/5610929b7a5756b447cecc2bd78acf6396e29a47.png" alt="Adizero Aruku">
+          <div class="card-overlay-btn">
+            <div class="btn-icon-bg"></div>
+            <img src="images/2_211.svg" alt="Add" class="btn-icon">
+          </div>
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span>Nữ</span>
+            <span class="meta-plus">+3</span>
+          </div>
+          <h3 class="card-title">Adizero Aruku</h3>
+          <p class="card-price">1.860.000₫</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <div class="card-image">
+          <img src="images/7c4bfad46b59ae84aca5b5c9cf4a62949b200234.png" alt="Runfalcon 3.0">
+        </div>
+        <div class="card-info">
+          <div class="card-meta">
+            <span>Nữ</span>
+            <span class="meta-plus">+2</span>
+          </div>
+          <h3 class="card-title">Runfalcon 3.0</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-nav-controls">
+      <button class="nav-arrow prev">
+        <img src="images/2_225.svg" alt="Prev">
+      </button>
+      <button class="nav-arrow next">
+        <img src="images/2_221.svg" alt="Next">
+      </button>
+    </div>
+  </div>
+</section>
+<section id="collection">
+  <div class="container">
+    <div class="collection-layout">
+      <!-- Sidebar / Filters -->
+      <aside class="collection-sidebar">
+        <h2 class="collection-title">BỘ SƯU TẬP<br>25-26</h2>
+        
+        <div class="filter-group">
+          <div class="filter-item active">(All)</div>
+          <div class="filter-item">Nam</div>
+          <div class="filter-item">Nữ</div>
+          <div class="filter-item">Trẻ em</div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="product-category-label">Shoes</div>
+      </aside>
+
+      <!-- Main Content -->
+      <div class="collection-main">
+        <div class="collection-controls">
+          <div class="control-group">
+            <span>Bộ lọc (+)</span>
+            <span>Sắp xếp(-)</span>
+          </div>
+          <div class="control-group right">
+            <span>Giá tăng dần</span>
+            <span>Giá giảm dần</span>
+          </div>
+        </div>
+
+        <div class="product-grid-3">
+          <!-- Product 1 -->
+          <div class="product-card-large">
+            <div class="card-image-large">
+              <img src="images/3ad20d8fe1bd31004543f498306d3c6efa28ea25.png" alt="Nike SB Dunk">
+              <div class="badge-plus">+5</div>
+            </div>
+            <div class="card-details">
+              <div class="detail-row">
+                <span class="detail-cat">Shoes</span>
+                <span class="detail-price">3,498,000₫</span>
+              </div>
+              <h3 class="detail-title">Nike SB Dunk Low Dashawn Jordan</h3>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card-large">
+            <div class="card-image-large">
+              <img src="images/143cfa142248ef2bde516aebdf503e759222c0e7.png" alt="Puma Deviate">
+            </div>
+            <div class="card-details">
+              <div class="detail-row">
+                <span class="detail-cat">Shoes</span>
+                <span class="detail-price">4,470,000₫</span>
+              </div>
+              <h3 class="detail-title">Puma Deviate Nitro 4 Alpine Snow Warm White</h3>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card-large">
+            <div class="card-image-large">
+              <img src="images/6ed8d3c8b4e244bcfa24819f240cf14c4bc624e8.png" alt="Converse Chuck 70">
+              <div class="badge-plus">+5</div>
+            </div>
+            <div class="card-details">
+              <div class="detail-row">
+                <span class="detail-cat">Shoes</span>
+                <span class="detail-price">3,940,000₫</span>
+              </div>
+              <h3 class="detail-title">Converse Chuck 70 Anonymous Club Black</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="collection-footer">
+          <a href="#" class="see-more">See More</a>
+          <div class="load-more-btn">
+            <span>Thêm</span>
+            <img src="images/2_178.svg" alt="Arrow Down">
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="journey">
+  <div class="container">
+    <div class="journey-header">
+      <h2 class="section-title text-center">HÀNH TRÌNH TRÊN MỖI BƯỚC CHÂN</h2>
+      <p class="journey-desc">
+        Tại Nam Trung Store , chúng tôi tin rằng mỗi đôi giày không chỉ là phụ kiện, mà là người bạn đồng hành. Với sự kết hợp giữa chất liệu da cao cấp và kỹ thuật gia công tỉ mỉ, chúng tôi mang đến những thiết kế bền bỉ vượt thời gian, giúp bạn tự tin thể hiện bản sắc riêng.
+      </p>
+    </div>
+
+    <div class="journey-gallery">
+      <div class="gallery-item">
+        <img src="images/9a92d9c706785f5271da5c60d1c9d4e9b2f18df3.png" alt="Journey 1">
+      </div>
+      <div class="gallery-item">
+        <img src="images/14d4c6a07cc73f956ca47cf77d3991de58bbd9f5.png" alt="Journey 2">
+      </div>
+      <div class="gallery-item">
+        <img src="images/4c27583d2f847c0a142177608971c332e0715726.png" alt="Journey 3">
+      </div>
+      <div class="gallery-item">
+        <img src="images/1acd61f829e58d47817bea194b0d9958a5adcc59.png" alt="Journey 4">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="footer-section">
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Empty Left Column for spacing/logo if needed -->
+        <div class="footer-col-empty"></div>
+
+        <!-- Info Column -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Thông tin</h4>
+          <ul class="footer-links">
+            <li><a href="#">Định giá /</a></li>
+            <li><a href="#">VẤN ĐỀ /</a></li>
+            <li><a href="#">LIÊN HỆ</a></li>
+          </ul>
+          
+          <div class="footer-lang-group">
+            <h4 class="footer-heading">NGÔN NGỮ</h4>
+            <div class="lang-links">
+              <div class="lang-row">
+                <span>Eng</span>
+                <span class="slash">/</span>
+              </div>
+              <div class="lang-row">
+                <span>Esp</span>
+                <span class="slash">/</span>
+              </div>
+              <div class="lang-row">
+                <span>VIE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Column -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Sự đổi mới cốt lõi</h4>
+          <div class="tech-stack">
+            <div class="tech-item">
+              <span class="tech-title">TECH</span>
+            </div>
+            <div class="tech-item">
+              <span class="tech-title black-bg">SOFT</span>
+              <span class="tech-desc">Vải lưới kỹ thuật giúp thoáng khí tối đa</span>
+              <span class="tech-slash">/</span>
+            </div>
+            <div class="tech-item">
+              <span class="tech-title black-bg">SOLE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright">
+          <span>© 2026 —bản quyền</span>
+          <div class="legal-links">
+            <span>riêng tư</span>
+            <span>Terms</span>
+          </div>
+        </div>
+        
+        
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+</body>
+</html>
